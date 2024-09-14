@@ -1,268 +1,327 @@
-<!DOCTYPE>
-<html>
-    <head>
-        <title></title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="../css_advanced/styles.css">
-    </head>
-    <body>
-        <header>
-            <div class="logo">
-                <a href=""> <img src="../css_advanced/favicon.ico" alt="A woman smiling" > </a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website with Banner</title>
+</head>
+<body>
+
+    <header>
+        <div>
+            <a href="#">
+                <img src="your-logo.png" alt="Logo" width="100" height="auto">
+            </a>
+        </div>
+
+        <div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Main content and banner section -->
+    <main>
+        <section>
+            <!-- First Block with Title, 3 Words, and Button -->
+            <div class="banner-block">
+                <h1>Main Title</h1> <!-- TITLE -->
+                <p>Three Words</p> <!-- 3 WORDS -->
+                <button>Click Me</button> <!-- BUTTON -->
+            </div>
+
+            <!-- Second Block with Title and 4 Image Sections -->
+            <div class="image-block">
+                <h2>Secondary Title</h2> <!-- TITLE -->
+
+                <div class="image-section">
+                    <!-- First Image Block -->
+                    <div class="image-card">
+                        <img src="image1.png" alt="Image 1" width="100" height="auto"> <!-- IMAGE -->
+                        <h3>Name 1</h3> <!-- NAME -->
+                        <p>Subtitle 1</p> <!-- SUB-TITLE -->
+                    </div>
+
+                    <!-- Second Image Block -->
+                    <div class="image-card">
+                        <img src="image2.png" alt="Image 2" width="100" height="auto">
+                        <h3>Name 2</h3>
+                        <p>Subtitle 2</p>
+                    </div>
+
+                    <!-- Third Image Block -->
+                    <div class="image-card">
+                        <img src="image3.png" alt="Image 3" width="100" height="auto">
+                        <h3>Name 3</h3>
+                        <p>Subtitle 3</p>
+                    </div>
+
+                    <!-- Fourth Image Block -->
+                    <div class="image-card">
+                        <img src="image4.png" alt="Image 4" width="100" height="auto">
+                        <h3>Name 4</h3>
+                        <p>Subtitle 4</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <main>
+        <section>
+            <!-- First Block with Title, 3 Words, and Button -->
+            <div class="banner-block">
+                <h1>Main Title</h1>
+                <p>Three Words</p>
+                <button>Click Me</button>
+            </div>
+
+            <!-- Second Block with Title and 4 Image Sections -->
+            <div class="image-block">
+                <h2>Secondary Title</h2>
+
+                <div class="image-section">
+                    <div class="image-card">
+                        <img src="image1.png" alt="Image 1" width="100" height="auto">
+                        <h3>Name 1</h3>
+                        <p>Subtitle 1</p>
+                    </div>
+                    <div class="image-card">
+                        <img src="image2.png" alt="Image 2" width="100" height="auto">
+                        <h3>Name 2</h3>
+                        <p>Subtitle 2</p>
+                    </div>
+                    <div class="image-card">
+                        <img src="image3.png" alt="Image 3" width="100" height="auto">
+                        <h3>Name 3</h3>
+                        <p>Subtitle 3</p>
+                    </div>
+                    <div class="image-card">
+                        <img src="image4.png" alt="Image 4" width="100" height="auto">
+                        <h3>Name 4</h3>
+                        <p>Subtitle 4</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quote Block Section -->
+        <section class="quote-section">
+            <div class="quote-block">
+                <img src="quote-image.jpg" alt="Quote Image" width="150" height="auto"> <!-- IMAGE -->
+
+                <div class="quote-content">
+                    <blockquote>
+                        "This is an inspirational quote that goes here." <!-- QUOTE -->
+                    </blockquote>
+                    <p class="author">- Author Name</p> <!-- AUTHOR -->
+                    <p class="subtitle">This is a subtitle or description for the quote.</p> <!-- SUB-TITLE -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <main>
+        <!-- Video Section -->
+        <section>
+            <h1>Videos</h1>
+            <div class="video-list">
+                <!-- Video Block 1 -->
+                <div class="video-block">
+                    <img src="path_to_video_thumbnail_or_placeholder.jpg" alt="Video Thumbnail">
+                    <h3>Video Title</h3>
+                    <p>Video description text goes here.</p>
+
+                    <div class="video-author">
+                        <img src="path_to_author_image.jpg" alt="Author Image">
+                        <h4>Author Name</h4>
+                        <p>Joseph Smith</p>
+                    </div>
+
+                    <div class="video-rating">
+                        <div class="rating-images">
+                            <!-- Add star images for rating -->
+                            <img src="star.jpg" alt="Star">
+                            <img src="star.jpg" alt="Star">
+                            <img src="star.jpg" alt="Star">
+                            <img src="star.jpg" alt="Star">
+                            <img src="star.jpg" alt="Star">
+                        </div>
+                        <div>5 stars</div>
+                    </div>
                 </div>
 
-                <div class="navbar">
-                <a href="">Courses</a>
-                <a href=""> Pricing</a>
-                <a href="">Login</a>
+                <!-- Repeat for Video Blocks 2, 3, 4 -->
+                <div class="video-block">
+                    <img src="path_to_video_thumbnail_or_placeholder.jpg" alt="Video Thumbnail">
+                    <h3>Video Title</h3>
+                    <p>Video description text goes here.</p>
+
+                    <div class="video-author">
+                        <img src="path_to_author_image.jpg" alt="Author Image">
+                        <h4>Author Name</h4>
+                        <p>Nduka Moses</p>
+                    </div>
+
+                    <div class="video-rating">
+                        <div class="rating-images">
+                            <img src="star.jpg" alt="Star">
+                            <img src="star.jpg" alt="Star">
+                            <img src="star.jpg" alt="Star">
+                            <img src="star.jpg" alt="Star">
+                            <img src="star.jpg" alt="Star">
+                        </div>
+                        <div>5 stars</div>
+                    </div>
                 </div>
-            
-        </header>
-            <main>
-                <section class="header-section">
-                    <div class="schooled">
-                        <h1 class="schooled-title">
-                            Get schooled
-                        </h1>
-                        <p class="schooled-text">
-                            <span>SMILES</span>
-                            <span>GRIN</span>
-                            <span>LAUGH</span>
-                        </p>
-                        <button class="register-btn">REGISTER FOR FREE</button>
+
+                <!-- Video Block 3 -->
+                <div class="video-block">
+                    <img src="path_to_video_thumbnail_or_placeholder.jpg" alt="Video Thumbnail">
+                    <h3>Video Title</h3>
+                    <p>Video description text goes here.</p>
+
+                    <div class="video-author">
+                        <img src="path_to_author_image.jpg" alt="Author Image">
+                        <h4>Author Name</h4>
+                        <p>Philip Johnson</p>
+
                     </div>
-                    <div class="pros">
-                        <h2 class="pros-title"><span class="secondary-color">Learn</span> from the pros</h2>
-                        <div class="pros-block">
-                            <div class="pros-card">
-                                <img src="../css_advanced/imgs/philip.png" alt="philip">
-                                <h3>Phillip Massey</h3>
-                                <p>« Smile of the year » 2018 - 2019</p>
-                            </div>
-                            <div class="pros-card">
-                                <img src="../css_advanced/imgs/nannie.png" alt="nannie">
-                                <h3>Nannie Lawrence</h3>
-                                <p>Best « little smile » 2017</p>
-                            </div>
-                            <div class="pros-card">
-                                <img src="../css_advanced/imgs/bruce.png" alt="bruce">
-                                <h3>Bruce Walters</h3>
-                                <p>Best « Friend Smile » live performance 2019</p>
-                            </div>
-                            <div class="pros-card">
-                                <img src="../css_advanced/imgs/henry.png" alt="henry">
-                                <h3>Henry Hughes</h3>
-                                <p>« 24h smiles » winner 2016 - 2019</p>
-                            </div>
+
+                    <div class="video-rating">
+                        <div class="rating-images">
+                            <img src="star.jpg" alt="Star">
+                            <img src="star.jpg" alt="Star">
+                            <img src="star.jpg" alt="Star">
+                            <img src="star.jpg" alt="Star">
+                            <img src="star.jpg" alt="Star">
                         </div>
+                        <div>5 stars</div>
                     </div>
-                </section>
-                <section class="presenter-section">
-                    <div class="presenter-block">
-                        <img src="../css_advanced/imgs/avatar.png" alt="avatar">
-                        <div>
-                            <blockquote>
-                                « Those tutorials are concise and go straight to the point. I can’t think of a better
-                                place to learn smiling. And it’s so fun!
-                            </blockquote>
-                            <p class="person-name">Person Name</p>
-                            <p class="weather">weather presenter</p>
-                        </div>
-                    </div>
-                </section>
-                <section class="video-section">
-                    <h1> Most <span class="secondary-color">popular</span> tutorials</h1>
-                    <div class="video-container">
-                        <div class="video">
-                            <img src="../css_advanced/imgs/preview_diag.png">
-                            <a class="play" href="#"><img src="../css_advanced/imgs/play.png" alt=""></a>
-                            <h2> Diagonal smile</h2>
-                            <p> This is a diagonal smile by one of our employees. Is she not beautiful </p>
-                            <div class="video-author">
-                                <img src="../css_advanced/imgs/philip_sm.png" class="author-picture">
-                                <h3> <span class="secondary-color">Philip Massey</span> </span></h3>
-                            </div>
-                            <div class="rating-duration">
-                                <div class="rating">
-                                    <img src="../css_advanced/svgs/Star_1.svg" alt="img">
-                                    <img src="../css_advanced/svgs/Star_1.svg" alt="img">
-                                    <img src="../css_advanced/svgs/Star_1.svg" alt="img">
-                                    <img src="../css_advanced/svgs/Star_1.svg" alt="img">
-                                    <img src="../css_advanced/svgs/Star_5.svg" alt="img">
-                                </div>
-                                <p class="duration"> 8 mins </p>
-                            </div>
-
-                        </div>
-
-                        <div class="video">
-                            <img src="../css_advanced/imgs/preview_hap.png">
-                            <a class="play" href="#"><img src="../css_advanced/imgs/play.png" alt=""></a>
-                            <h2> Happy Smile</h2>
-                            <p> This is a happy smile by one of our employees. Is she not beautiful </p>
-                            <div class="video-author">
-                                <img src="../css_advanced/imgs/philip_sm.png" class="author-picture">
-
-                                <h3> <span class="secondary-color">Philip Massey</span> </span></h3>
-                            </div>
-                            <div class="rating-duration">
-                                <div class="rating">
-                                    <img src="../css_advanced/svgs/Star_1.svg" alt="img">
-                                    <img src="../css_advanced/svgs/Star_1.svg" alt="img">
-                                    <img src="../css_advanced/svgs/Star_1.svg" alt="img">
-                                    <img src="../css_advanced/svgs/Star_1.svg" alt="img">
-                                    <img src="../css_advanced/svgs/Star_5.svg" alt="img">
-                                </div>
-                                <p class="duration"> 8 mins </p>
-                            </div>
-
-                        </div>
-
-                        <div class="video">
-                            <img src="../css_advanced/imgs/preview_nat.png">
-                            <a class="play" href="#"><img src="../css_advanced/imgs/play.png" alt=""></a>
-                          
-                            <h2 class="vid-title"> Natural smile</h2>
-                            <p class="vid-desc"> This is a natural smile by one of our employees. Is she not beautiful </p>
-                            <div class="video-author">
-                                <img src="../css_advanced/imgs/philip_sm.png" class="author-picture">
-
-                                <h3> <span class="secondary-color">Philip Massey</span> </span></h3>
-                            </div>
-                            <div class="rating-duration">
-                                <div class="rating">
-                                    <img src="../css_advanced/svgs/Star_1.svg" alt="img">
-                                    <img src="../css_advanced/svgs/Star_1.svg" alt="img">
-                                    <img src="../css_advanced/svgs/Star_1.svg" alt="img">
-                                    <img src="../css_advanced/svgs/Star_1.svg" alt="img">
-                                    <img src="../css_advanced/svgs/Star_5.svg" alt="img">
-                                </div>
-                                <p class="duration"> 8 mins </p>
-                            </div>
-
-                        </div>
-
-
-                        <div class="video">
-                            <img src="../css_advanced/imgs/preview_sad.png">
-                            <a class="play" href="#"><img src="../css_advanced/imgs/play.png" alt=""></a>
-                            <h2>Sad smile</h2>
-                            <p> This is a sad smile by one of our employees. Is she not beautiful </p>
-                            <div class="video-author">
-                                <img src="../css_advanced/imgs/philip_sm.png" class="author-picture">
-                                <h3> <span class="secondary-color">Philip Massey</span> </span></h3>
-                            </div>
-                            <div class="rating-duration">
-                                <div class="rating">
-                                    <img src="../css_advanced/svgs/Star_1.svg" alt="img">
-                                    <img src="../css_advanced/svgs/Star_1.svg" alt="img">
-                                    <img src="../css_advanced/svgs/Star_1.svg" alt="img">
-                                    <img src="../css_advanced/svgs/Star_1.svg" alt="img">
-                                    <img src="../css_advanced/svgs/Star_5.svg" alt="img">
-                                </div>
-                                <p class="duration"> 8 mins </p>
-                            </div>
-
-                        </div>
-                        
-                    </div>
-                </section>
-                <section class="membership-section">
-                    <h1><span class="secondary-color">Free</span> membership</h1>
-                    <div class="memberships">
-                        <div class="membership-card">
-                            <img src="../css_advanced/svgs/smile.svg" alt="smile">
-                            <h2>Lorem ipsum</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            </p>
-                        </div>
-                        <div class="membership-card">
-                            <img src="../css_advanced/svgs/smile.svg" alt="smile">
-                            <h2>Lorem ipsum</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            </p>
-                        </div>
-                        <div class="membership-card">
-                            <img src="../css_advanced/svgs/smile.svg" alt="smile">
-                            <h2>Lorem ipsum</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            </p>
-                        </div>
-                        <div class="membership-card">
-                            <img src="../css_advanced/svgs/smile.svg" alt="smile">
-                            <h2>Lorem ipsum</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            </p>
-                        </div>
-                    </div>
-                    <button class="register-btn">REGISTER FOR FREE</button>
-                </section>
-                <section class="faq-section">
-                    <h1 id="faq-head">F.A.Q.</h1>
-                    <div class="faq-list">
-                        <div class="faq-item">
-                            <h2>How does this work?</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                                non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                        </div>
-                        <div class="faq-item">
-                            <h2>How does this work?</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                                non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="faq-list">
-                        <div class="faq-item">
-                            <h2>How does this work?</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                                non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                        </div>
-                        <div class="faq-item">
-                            <h2>How does this work?</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                                non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                        </div>
-                    </div>
-                </section>
-            </main>
-            <footer>
-                <div class="ft-container">
-                    <div class="nav-ft">
-                        <img src="../css_advanced/imgs/logo.png" alt="">
-                        <div>
-                            <a href=""><img src="../css_advanced/svgs/facebook.svg" alt=""></a>
-                            <a href=""><img src="../css_advanced/svgs/twitter.svg" alt=""></a>
-                            <a href=""><img src="../css_advanced/svgs/Combined Shape.svg" alt=""></a>
-                        </div>
-                    </div>
-                    <p>©smileschool 2020</p>
                 </div>
-            </footer>
-    </body>
+
+                <!-- Video Block 4 -->
+                <div class="video-block">
+                    <img src="path_to_video_thumbnail_or_placeholder.jpg" alt="Video Thumbnail">
+                    <h3>Video Title</h3>
+                    <p>Video description text goes here.</p>
+
+                    <div class="video-author">
+                        <img src="path_to_author_image.jpg" alt="Author Image">
+                        <h2>Author Name</h2>
+                        <p>John Samuel</p>
+                    </div>
+
+                    <div class="video-rating">
+                        <div class="rating-images">
+                            <img src="star.jpg" alt="Star">
+                            <img src="star.jpg" alt="Star">
+                            <img src="star.jpg" alt="Star">
+                            <img src="star.jpg" alt="Star">
+                            <img src="star.jpg" alt="Star">
+                        </div>
+                        <div>5 stars</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+ 
+
+
+    <section>
+            <h2>Membership Plans</h2>
+            <div class="membership-list">
+                <!-- Membership Block 1 -->
+                <div class="membership-block">
+                    <img src="path_to_membership_image.jpg" alt="Membership Image">
+                    <h3>Membership Title</h3>
+                    <p>Description of the membership plan.</p>
+                    <button>Join Now</button>
+                </div>
+
+                <!-- Membership Block 2 -->
+                <div class="membership-block">
+                    <img src="path_to_membership_image.jpg" alt="Membership Image">
+                    <h3>Membership Title</h3>
+                    <p>Description of the membership plan.</p>
+                    <button>Join Now</button>
+                </div>
+
+                <!-- Membership Block 3 -->
+                <div class="membership-block">
+                    <img src="path_to_membership_image.jpg" alt="Membership Image">
+                    <h3>Membership Title</h3>
+                    <p>Description of the membership plan.</p>
+                    <button>Join Now</button>
+                </div>
+
+                <!-- Membership Block 4 -->
+                <div class="membership-block">
+                    <img src="path_to_membership_image.jpg" alt="Membership Image">
+                    <h3>Membership Title</h3>
+                    <p>Description of the membership plan.</p>
+                    <button>Join Now</button>
+                </div>
+            </div>
+        </section>
+
+         <!-- FAQ Section -->
+         <section>
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-block">
+                <!-- First Row Block -->
+                <div class="row-block">
+                    <div class="item-block">
+                        <h3>Question 1</h3>
+                        <p>Answer to the first question goes here.</p>
+                    </div>
+                    <div class="item-block">
+                        <h3>Question 2</h3>
+                        <p>Answer to the second question goes here.</p>
+                    </div>
+                </div>
+
+                <!-- Second Row Block -->
+                <div class="row-block">
+                    <div class="item-block">
+                        <h3>Question 3</h3>
+                        <p>Answer to the third question goes here.</p>
+                    </div>
+                    <div class="item-block">
+                        <h3>Question 4</h3>
+                        <p>Answer to the fourth question goes here.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-container">
+            <div class="row-block">
+                <!-- Logo -->
+                <div class="logo-block">
+                    <img src="path_to_logo.jpg" alt="Logo Image">
+                </div>
+
+                <!-- Image Links Block -->
+                <div class="link-block">
+                    <a href="#"><img src="path_to_image1.jpg" alt="Link Image 1"></a>
+                    <a href="#"><img src="path_to_image2.jpg" alt="Link Image 2"></a>
+                    <a href="#"><img src="path_to_image3.jpg" alt="Link Image 3"></a>
+                </div>
+            </div>
+
+            <!-- Text Block -->
+            <div class="footer-text">
+                <p>Some footer text goes here.</p>
+            </div>
+        </div>
+    </footer>
+</body>
 </html>
